@@ -17,5 +17,14 @@ public class TestStack {
         for (int i = 0; i < 10; i++) {
             System.out.print(stck2.pop() + " ");
         }
+
+        String format = "|%1$-10s|%2$-10s|%3$-20s|\n";
+        System.out.format(format, "A", "AA", "AAA");
+        System.out.format(format, "B", "", "BBBBB");
+        System.out.format(format, "C", "CCCCC", "CCCCCCCC");
+
+        String ex[] = { "E", "EEEEEEEEEE", "E" };
+
+        System.out.format(String.format(format, (Object[]) ex));
     }
 }
