@@ -49,6 +49,5 @@ public class Main {
         System.out.println("Площадь равна: " + f.area());
         f = t;
         System.out.println("Площадь равна: " + f.area());
-        Object o=new Object();
     }
 }
