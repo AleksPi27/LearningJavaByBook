@@ -50,6 +50,5 @@ public class Main {
         f = t;
         System.out.println("Площадь равна: " + f.area());
         Object o=new Object();
-        Object.clone()
     }
 }
