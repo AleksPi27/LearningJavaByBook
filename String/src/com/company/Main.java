@@ -18,5 +18,9 @@ public class Main {
         main.functionWithVaragrs(1,2,3);
         main.functionWithVaragrs(1);
         main.functionWithVaragrs(1,2,3,4);
+
+        for (int i = 0;i<args.length;i++){
+            System.out.println("args["+i+"] : "+args[i]);
+        }
     }
 }
